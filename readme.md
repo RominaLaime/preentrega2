@@ -1,9 +1,9 @@
 # Coder House
 ---
 
-Detalles de la **segunda preentrega:**
-- Se agregaron archivos actualizados (HTML-CSS-IMG-FAVICON-PAGINAS), en su mayor parte se utilizo Bootstrap :)
-- Como adicional, se realiza este **ReadMe.md** para probar el funcionamiento del mismo:
+Detalles de la **tercera preentrega:**
+- Se actualizaron varios archivos (HTML-CSS-IMG-FAVICON-PAGINAS), se le sumo el uso SASS (SCSS) y se incorporo SEO.
+- Como adicional, se realiza este **ReadMe.md** para probar el funcionamiento del mismo (ahora actualizado):
 
 Aca ejemplo para probar los diferentes tipos de comentarios:
 
@@ -20,6 +20,6 @@ Aca ejemplo para probar los diferentes tipos de comentarios:
 
 
 ---
-Preentrega2 | Desarrollo Web
+Preentrega3 | Desarrollo Web
 
 ##### Romina Laime 
