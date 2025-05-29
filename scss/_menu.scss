@@ -1,0 +1,45 @@
+@use "./variables";
+
+.bg-primary {
+    background-color: variables.$color-destacado !important;
+}
+
+
+.navbar-style {    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3rem;
+    padding-top: 1rem;
+    border-bottom: 1px solid #707070;
+    box-shadow: 1px 1px 1px 1px rgba(85, 85, 85, 0.3);
+    background-color: variables.$color-destacado !important;
+}
+.nav-item {
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+}
+
+.links{
+    display: flex;
+
+}
+
+li{
+    list-style: none;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+/*
+.menu {
+    display: flex !important;
+    justify-content: right !important;
+    
+}
+*/
+
+
+
+

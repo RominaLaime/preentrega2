@@ -15,7 +15,8 @@
 
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap-grid.min.css">    
-    <link rel="stylesheet" href="./css/estilos.css">
+    <!--<link rel="stylesheet" href="./css/estilos.css">-->
+    <link rel="stylesheet" href="./css/main.css">
 
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/android-chrome-192x192.png">
@@ -29,15 +30,31 @@
 
     <!--Navbar-->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container">
+    <nav class="navbar-style">     
+
+        <div class="logo"><a class="navbar-brand" href="index.html"><img src="./img/RL_logo_w.png" alt="Logo_RL"></a></div>    
+
+        <ul class="links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="./paginas/experiencia.html">Experiencia</a></li>
+            <li><a href="./paginas/formacion.html">Formación</a></li>
+            <li><a href="./paginas/habilidades.html">Habilidades</a></li>
+            <li><a href="./paginas/contacto.html">Contacto</a></li>
+        </ul>        
+
+    </nav>
+
+
+<!--
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
+        <div class="container navbar-style">
 
             <a class="navbar-brand" href="index.html"><img src="./img/RL_logo_w.png" alt="Logo_RL"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
 
 
-            <div class="collapse navbar-collapse menu" id="navbarNav">
-                <ul class="navbar-nav nav-underline">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav-underline links">
                 <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
                 <li class="nav-item"><a class="nav-link" href="./paginas/experiencia.html">Experiencia</a></li>
                 <li class="nav-item"><a class="nav-link" href="./paginas/formacion.html">Formación</a></li>
@@ -49,9 +66,9 @@
 
         </div>
     </nav>
+-->
 
 
- 
 
 
 
@@ -71,11 +88,11 @@
 
                        <div class="doble-boton">
                         <section class="boton-principal">
-                             <button class="btn btn-primary btn-md"><a class="bp-h" href="./paginas/experiencia.html">Experiencia</a></button>
+                             <button class="btn-rl btn-primary-rl btn-md"><a class="bp-h" href="./paginas/experiencia.html">Experiencia</a></button>
                              
                         </section>     
                         <section class="boton-secundario">
-                             <button class="btn btn-secondary btn-md"><a class="bs-h" href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdrive.google.com%2Fdrive%2Fmy-drive%3Fhl%3Des&followup=https%3A%2F%2Fdrive.google.com%2Fdrive%2Fmy-drive%3Fhl%3Des&hl=es&ifkv=ASKV5MhBZ3T4KLysGs_EEeYP6aPVxjhnJ65VSQJKflVk40dymz-uFrM2tL5lOoYuxUzyNHyK8j4Ehg&osid=1&passive=1209600&service=wise&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S438720597%3A1747068088861749" target="_blank">Portfolio</a></button>                             
+                             <button class="btn-rl btn-secondary-rl btn-md"><a class="bs-h" href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdrive.google.com%2Fdrive%2Fmy-drive%3Fhl%3Des&followup=https%3A%2F%2Fdrive.google.com%2Fdrive%2Fmy-drive%3Fhl%3Des&hl=es&ifkv=ASKV5MhBZ3T4KLysGs_EEeYP6aPVxjhnJ65VSQJKflVk40dymz-uFrM2tL5lOoYuxUzyNHyK8j4Ehg&osid=1&passive=1209600&service=wise&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S438720597%3A1747068088861749" target="_blank">Portfolio</a></button>                             
                         </section>    
                         </div>
 
@@ -118,7 +135,7 @@
 
                     </div>
 
-                     <div class="col-lg-6 redes">
+                     <div class="redes col-lg-6 ">
 
                         <ul class="redes col-md-6">
                                 <li><a href="https://www.linkedin.com/" target="_blank"><img class="img-redes" src="./img/Linkedin.png" alt="LinkedIn"></a></li>

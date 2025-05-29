@@ -11,7 +11,8 @@
 
      <!--Bootstrap CSS-->
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap-grid.min.css">    
-    <link rel="stylesheet" href="../css/estilos.css">
+    <!--<link rel="stylesheet" href="../css/estilos.css">-->
+    <link rel="stylesheet" href="../css/main.css">
 
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="../favicon/android-chrome-192x192.png">
@@ -25,7 +26,18 @@
 
 <!--Navbar-->
     
+<nav class="navbar-style">
+        <div class="logo"><a class="navbar-brand" href="../index.html"><img src="../img/RL_logo_w.png" alt="Logo_RL"></a></div>    
+        <ul class="links">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./experiencia.html">Experiencia</a></li>
+            <li><a href="./formacion.html">Formación</a></li>
+            <li><a href="./habilidades.html">Habilidades</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>          
+ </nav>
 
+ <!--
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
 
@@ -47,7 +59,7 @@
         </div>
     </nav>
 
-
+-->
 
 
 
@@ -61,13 +73,13 @@
             <div class="col-lg-6 contenido-f">
 
                 <div class="col-md-12 contenido-t-p contenido-f">
-                    <div class="container-fluid mt-5 pt-5 mb-5 pb-5">
+                    <div class="container-fluid mt-3 pt-5 mb-5 pb-5">
 
                          <h1 class="text-left titulo-c">Contacto</h1>                         
                          <p class="parrafo-titulo mt-4 mb-4"><b>Romina Laime</b> | Diseñadora UX/UI | Web | Gráfica  .</p>
                          <div class="subtitulo-f">
-                         <p class="text-left mt- mb-1"><b>Email:</b> <br> rominalaime.t@gmail.com</p>   <br>
-                         <p class="text-left mt-1 mb-1"><b>Whatsapp:</b> <br> 123456789</p>     
+                         <p class="text-left texto-izq mt- mb-1"><b>Email:</b> <br> rominalaime.t@gmail.com</p>   <br>
+                         <p class="text-left texto-izq mt-1 mb-1"><b>Whatsapp:</b> <br> 123456789</p>     
                          </div>              
 
                     </div>
@@ -80,24 +92,24 @@
 
         <div class="col-lg-6 contenido-f">
 
-            <div class="col-md-12 mt-5 pt-5 mb-5 pb-5 contenido-f">
+            <div class="col-md-12 mt-5 pt-5 mb-5 pb-5">
                 
                 <form class="formulario-c">
-                     <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label"><h5>También podes mandar mensaje por aca ;)</h5></label>
+                     <div class="mb-5">
+                        <label for="exampleInputEmail1" class="form-label"><h5 class="form-titulo">También podes mandar mensaje por acá ;)</h5></label>
                         
                     </div>
                     <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <label for="exampleInputEmail1" class="form-label">Email</label><br>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>                    
+                    <div class="mb-5">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label><br>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
                     
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="submit" class="btn-rl btn-primary-rl">Enviar</button>
                 </form>
 
 

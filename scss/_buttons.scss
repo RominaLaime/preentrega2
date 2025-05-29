@@ -1,0 +1,52 @@
+@use "./variables";
+
+/*Extend*/
+
+.btn-rl {
+    border-radius: 40px;
+    width: 175px;   
+    height: 66px;   
+    font-family: variables.$fuente-body;   
+    font-size: 1rem;
+}
+
+.btn-primary-rl {
+    @extend .btn-rl;
+     background-color: variables.$color-primario ;
+     color: variables.$color-white;   
+     border: 2px solid variables.$color-primario;
+     
+     &:hover {
+    background-color: variables.$color-hover-p;
+    border: 2px solid variables.$color-hover-p;
+     }
+}
+
+.btn-secondary-rl {
+    @extend .btn-rl;
+     background-color: variables.$color-white ;
+     border: 2px solid variables.$color-primario;  
+     color: variables.$color-primario;
+     
+    &:hover {
+    border: 2px solid variables.$color-hover-p;  
+    background-color: variables.$color-hover-s ;   
+    }
+}
+
+.doble-boton {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.boton-principal {
+    padding-top: 20px;
+}
+
+.boton-secundario {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+

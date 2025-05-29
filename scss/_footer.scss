@@ -1,0 +1,21 @@
+@use "./variables";
+
+.footer {
+   border-top: 1px solid variables.$color-destacado;
+   display: flex;
+   justify-content: end;
+   align-items: end; 
+   background-color: variables.$color-fondo-footer;
+}
+.footer-texto {   
+    padding-top: 2rem;
+    color: variables.$color-destacado;
+    font-size: 14px;
+    text-align: left;
+}
+.redes {
+    display: flex;
+    justify-content: right;
+    padding-top: 1rem;
+    
+}

@@ -11,7 +11,8 @@
 
     <!--Bootstrap CSS-->  
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap-grid.min.css">  
-    <link rel="stylesheet" href="../css/estilos.css">   
+    <!--<link rel="stylesheet" href="../css/estilos.css">-->
+    <link rel="stylesheet" href="../css/main.css">
 
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="../favicon/android-chrome-192x192.png">
@@ -23,34 +24,24 @@
 
 
 <!--Navbar-->
-    
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container">
-
-            <a class="navbar-brand" href="../index.html"><img src="../img/RL_logo_w.png" alt="Logo_RL"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
-
-
-            <div class="collapse navbar-collapse menu" id="navbarNav">
-                <ul class="navbar-nav nav-underline">
-                <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link" href="./experiencia.html">Experiencia</a></li>
-                <li class="nav-item"><a class="nav-link" href="./formacion.html">Formación</a></li>
-                <li class="nav-item"><a class="nav-link" href="./habilidades.html">Habilidades</a></li>
-                <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
-                </ul>
-            </div>
+     <nav class="navbar-style">
+        <div class="logo"><a class="navbar-brand" href="../index.html"><img src="../img/RL_logo_w.png" alt="Logo_RL"></a></div>    
+        <ul class="links">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./experiencia.html">Experiencia</a></li>
+            <li><a href="./formacion.html">Formación</a></li>
+            <li><a href="./habilidades.html">Habilidades</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>          
+ </nav>
 
 
-        </div>
-    </nav>
-
+     
 <!--Card Section-->
 
-    <div class="container mt-2 mb-5 p-5">
+    <div class="container mt-2 mb-5">
 
-        <h1 class="text-center">Experiencia</h1>
+        <h1 class="text-center h1-center">Experiencia</h1>
         <p class="text-center mt-3 mb-5 subtitulo-f">Freelance | Relación de dependencia</p>
 
 
@@ -60,7 +51,7 @@
                         
             <div class="col-lg-4">
                         <div class="col-md-12">
-                            <div class="card mb-3">
+                            <div class="card mb-3 mt-4">
                                 
                                 <div class="card-body mt-3 p-5">
                                     <h5 class="card-title">Freelance</h5>
@@ -77,7 +68,8 @@
                         <div class="col-md-12">
                             <div class="mb-3">
                                 
-                                <div class="card-body mt-1 p-5">                        
+                                <div class="card-body  p-5">  
+                                    <p class="card-text ">Área de Diseño / <b>Único puesto</b> <br> </p><br>                      
                                     <p class="card-text ">-Diseño y maquetación de mails <br>- Card, Detail, Banners APP, Web, Grido Net <br> - Impresión Atriles, Lámina A1 </p>
                                     
                                 </div>
@@ -98,12 +90,12 @@
         <!--Card 3-->
          <div class="row">
                         
-            <div class="col-lg-4">
+            <div class="col-lg-4 mt-5">
                         <div class="col-md-12">
                             <div class="card mb-3">
                                 
                                 <div class="card-body mt-3 p-5">
-                                    <h5 class="card-title">Empresa</h5>
+                                    <h5 class="card-title">Empresa X</h5>
                                     <p class="card-title">(2019 - 2024)</p>                        
                                 </div>
                             </div>
@@ -115,14 +107,25 @@
             <div class="col-lg-8">
 
                         <div class="col-md-12">
-                            <div class="mb-3">
+                            <div class="mb-2">
                                 
                                 <div class="card-body p-5">                        
-                                    <p class="card-text ">Area Técnica y de Diseño <br> <b>Diferentes puestos</b> <br> </p>
-                                    <section>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero necessitatibus doloribus quod iure corporis, cumque placeat. Dignissimos sint ab dolor repellendus inventore eos odio. Incidunt, adipisci sit omnis aliquid ut voluptates libero facilis corporis perspiciatis neque suscipit vitae dolorum error numquam modi assumenda labore temporibus molestiae voluptatem minima accusantium placeat!
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero necessitatibus doloribus quod iure corporis, cumque placeat. Dignissimos sint ab dolor repellendus inventore eos odio. Incidunt, adipisci sit omnis aliquid ut voluptates libero facilis corporis perspiciatis neque suscipit vitae dolorum error numquam modi assumenda labore temporibus molestiae voluptatem minima accusantium placeat!
+                                    <p class="card-text ">Área Técnica y de Diseño / <b>Diferentes puestos</b> <br> </p><br>
+                                    <section>
+                                        - Diseño y creación de correos electrónicos personalizados utilizando herramientas comoIllustrator y Photoshop, asegurando una comunicación visual atractiva.                                        
+                                    </section> <br>
+                                    <section>
+                                        - Maquetación de correos electrónicos en Dreamweaver mediante el uso de la etiqueta <b>< table ></b>, garantizando compatibilidad y correcto rendimiento en diversos servidores de correo.                                        
+                                    </section> <br>
+                                    <section>
+                                        - Desarrollo de formularios y landings funcionales, integrándolos con aplicaciones para optimizar la interacción y captación de datos.
+                                    </section> <br>
+                                    <section>
+                                    - Ejecución de pruebas de API utilizando Postman y depuración de bases de datos mediante Excel, garantizando precisión y funcionalidad en los procesos.
+                                    </section><br>
+                                    <section>
+                                    - Impartición de capacitaciones a clientes, enfocadas en el uso eficiente de herramientas y soluciones.                                  
                                     </section>
-                                    
                                 </div>
                             </div>
                         </div>
