@@ -57,6 +57,7 @@ li {
 
 .h1-center {
     text-align: center;
+    padding-top: 2rem;
 }
 .p-subtitulo {
     text-align: center;
@@ -111,7 +112,9 @@ h5 {
     border: 1px solid variables.$color-primario;
     
 }
-
+.texto-form {
+    text-align: left;
+}
 
 .titulo-c {
     margin-top: 3rem;

@@ -29,20 +29,9 @@
   padding-right: 10px;
 }
 
-.links {
-  display: flex;
-  justify-content: right;
-}
-
 li {
   list-style: none;
   padding: 1rem;
-  margin-bottom: 1rem;
-}
-
-.menu {
-  display: flex !important;
-  justify-content: right !important;
 }
 
 /*Inicio*/
@@ -106,6 +95,7 @@ li {
 /*Experiencia*/
 .h1-center {
   text-align: center;
+  padding-top: 2rem;
 }
 
 .p-subtitulo {
@@ -161,6 +151,10 @@ h5 {
   font-size: 1rem;
   text-align: center;
   border: 1px solid #306AFC;
+}
+
+.texto-form {
+  text-align: left;
 }
 
 .titulo-c {

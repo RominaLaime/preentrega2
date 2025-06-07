@@ -1,11 +1,11 @@
 # Coder House
 ---
 
-Detalles de la **tercera preentrega:**
-- Se actualizaron varios archivos (HTML-CSS-IMG-FAVICON-PAGINAS), se agrego SASS (SCSS) y se incorporo el SEO.
+Detalles de la **entrega final:**
+- Se actualizaron varios archivos, entre ellos: HTML-CSS-IMG-PAGINAS-SCSS y se chequeo el SEO.
 - Como adicional, se sigue dejando este **ReadMe.md** para probar el funcionamiento del mismo:
 
-Aca ejemplo para probar los diferentes tipos de comentarios:
+Acá ejemplo para probar los diferentes tipos de comentarios:
 
 ```HTML
 
@@ -16,6 +16,6 @@ Aca ejemplo para probar los diferentes tipos de comentarios:
 
 
 ---
-Preentrega3 | Desarrollo Web
+Proyecto Final | Desarrollo Web
 
 ##### Romina Laime 
